@@ -1,0 +1,20 @@
+header.page-header
+  .container
+    .page-header__container
+      .page-header__left
+        a.page-header__logo
+          img(src="../img/logo.svg" alt="Логотип" width="127" height="32")
+        nav.page-header__navigation
+          ul.page-header__list
+            li.page-header__item
+              a.page-header__link(href="#") Discover
+            li.page-header__item
+              a.page-header__link(href="#") How it work
+      .page-header__right
+        input.page-header__search(type="text" name="search" placeholder="Search")
+        a.page-header__notifications
+          svg(width="24" height="24" viewBox="0 0 24 24")
+            use(xlink:href="img/sprite.svg#notifications")
+        .page-header__buttons
+          .page-header__button.page-header__button--upload Upload
+          .page-header__button.page-header__button--connect Connect Wallet

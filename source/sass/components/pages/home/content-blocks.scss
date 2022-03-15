@@ -1,0 +1,29 @@
+.content-blocks {
+  padding-top: 128px;
+}
+
+.content-blocks__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-blocks__paragraph {
+  @include hairline2();
+  color: $neutrals4;
+  margin-bottom: 8px;
+}
+
+.content-blocks__heading {
+  @include headline3();
+  color: $neutrals2;
+  margin-bottom: 24px;
+}
+
+.content-blocks__link {
+  @include button1();
+  border: 2px solid $neutrals6;
+  border-radius: 90px;
+  padding: 14px 22px;
+  color: $neutrals2;
+}

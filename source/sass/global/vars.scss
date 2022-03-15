@@ -1,0 +1,155 @@
+// 🎨Colors
+$primary1: #3772ff;
+$primary2: #3772ff;
+$primary3: #9757d7;
+$primary4: #45b26b;
+$primary5: #ef466f;
+
+$secondary1: #4bc9f0;
+$secondary2: #e4d7cf;
+$secondary3: #ffd166;
+$secondary4: #cdb4db;
+
+$neutrals1: #141416;
+$neutrals2: #23262f;
+$neutrals3: #353945;
+$neutrals4: #777e90;
+$neutrals5: #b1b5c3;
+$neutrals6: #e6e8ec;
+$neutrals7: #f4f5f6;
+$neutrals8: #fcfcfd;
+
+// 🆎Typography
+@mixin hero() {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -0.02em;
+}
+
+@mixin headline1() {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+}
+
+@mixin headline2() {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+@mixin headline3() {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+@mixin headline4() {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+}
+
+@mixin body1() {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+
+@mixin body1Bold() {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@mixin body2() {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin body2Bold() {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin caption() {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@mixin captionBold() {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@mixin caption2() {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+@mixin caption2Bold() {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+@mixin hairline1() {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+@mixin hairline2() {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+@mixin button1() {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@mixin button2() {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
