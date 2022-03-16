@@ -12,12 +12,14 @@
   @include hairline2();
   color: $neutrals4;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .content-blocks__heading {
   @include headline3();
   color: $neutrals2;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .content-blocks__link {
@@ -26,4 +28,11 @@
   border-radius: 90px;
   padding: 14px 22px;
   color: $neutrals2;
+  transition: 0.3s all ease-in;
+
+  &:hover {
+    background: $neutrals2;
+    color: $neutrals8;
+    border: 2px solid $neutrals2;
+  }
 }

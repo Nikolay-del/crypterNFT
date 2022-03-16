@@ -19,6 +19,12 @@ $neutrals6: #e6e8ec;
 $neutrals7: #f4f5f6;
 $neutrals8: #fcfcfd;
 
+// Viewports
+
+$desktop-width: 1440px;
+$tablet-width: 1200px;
+$mobile-width: 375px;
+
 // 🆎Typography
 @mixin hero() {
   font-family: "DM Sans", sans-serif;
